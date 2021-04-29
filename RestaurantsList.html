@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Restaurants List</title>  
+    </head>
+    <style>
+          body{
+                    background-image:url(./UpAzrieli.png);
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: cover;
+                    
+                    }
+          #myInput {
+                      background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+                      background-position: 10px 12px; /* Position the search icon */
+                      background-repeat: no-repeat; /* Do not repeat the icon image */
+                      width: 50%; /* Full-width */
+                      font-size: 16px; /* Increase font-size */
+                      padding: 12px 20px 12px 40px; /* Add some padding */
+                      border: 1px solid #ddd; /* Add a grey border */
+                      margin-bottom: 12px; /* Add some space below the input */
+                      margin-left: 220px;
+                    }
+
+        #myTable {
+          border-collapse: collapse; /* Collapse borders */
+          width: 50%; /* Full-width */
+          border: 1px solid #ddd; /* Add a grey border */
+          font-size: 15px; /* Increase font-size */
+          margin-left: 250px;
+          background-color: white;
+        }
+
+        #myTable th, #myTable td {
+          text-align: left; /* Left-align text */
+          padding: 12px; /* Add padding */
+        }
+
+        #myTable tr {
+          /* Add a bottom border to all table rows */
+          border-bottom: 1px solid #ddd;
+        }
+
+        #myTable tr.header, #myTable tr:hover {
+          /* Add a grey background color to the table header and on hover */
+          background-color: #f1f1f1;
+        }
+        
+                .topnav {
+          overflow: hidden;
+          background-color: #00599d;
+        }
+
+        /* Style the links inside the navigation bar */
+        .topnav a {
+          float: left;
+          display: block;
+          color: black;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+
+        /* Style the "active" element to highlight the current page */
+        .topnav a.active {
+          background-color: #e21a24;
+          color: white;
+        }
+
+        /* Style the search box inside the navigation bar */
+        .topnav input[type=text] {
+          float: right;
+          padding: 6px;
+          border: none;
+          margin-top: 8px;
+          margin-right: 16px;
+          font-size: 17px;
+        }
+
+        /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+        @media screen and (max-width: 600px) {
+          .topnav a, .topnav input[type=text] {
+            float: none;
+            display: block;
+            text-align: left;
+            width: 100%;
+            margin: 0;
+            padding: 14px;
+          }
+          .topnav input[type=text] {
+            border: 1px solid #ccc;
+          }
+        }
+
+    </style>
+    <body>
+         <div class="topnav">
+                    <a class="active" href="./index.html#home">Home</a>
+                    
+                  </div>  
+        
+        <br>
+        
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search...">
+
+        <table id="myTable">
+              <tr class="header">
+                <th style="width:40%;">Restaurant Name</th>
+                <th style="width:40%;">Place an order</th>
+                <th style="width:20%;">Phone</th>
+              </tr>
+              <tr>
+                <td>River</td>
+                <td><a href= "https://order.plweb.online/wl/5354#!/rest/5354/menu">River Order</a></td>
+                <td>03-7161520</td>
+              </tr>
+              <tr>
+                <td>SaladBar</td>
+                <td>Phone orders only</a></td>
+                <td>03-9204010</td>
+              </tr>
+              <tr>
+                <td>Zipora Express</td>
+                <td><a href= "https://ziporaholon.co.il/">Zipora Express Order</a></td>
+                <td>03-6702506</td>
+              </tr>
+              <tr>
+                <td>Puzzle Food</td>
+                <td><a href= "https://wolt.com/en/isr/rishon-lezion/restaurant/puzzle-burger-holon?utm_source=googlemapreserved&utm_campaign=puzzle-burger-holon">Puzzle Food Order</a></td>
+                <td>03-6568766</td>
+                </tr>
+                <tr>
+                  <td>BBB</td>
+                  <td><a href= "https://www.tabitorder.com/?siteName=bbbholon#/start">BBB Order</a></td>
+                  <td>03-7696559</td>
+              </tr>
+                <tr>
+                  <td>Carla Bruni</td>
+                  <td><a href= "https://tabitisrael.co.il/online-reservations/create-reservation?step=search&orgId=5f0773bc7dcc4e1d302b3db1">Carla Bruni Order</a></td>
+                  <td>052-6274409</td>
+              </tr>
+                <tr>
+                  <td>McDonald's</td>
+                  <td><a href= "https://order.mcdonalds.co.il/">McDonald's Order</a></td>
+                  <td>054-3360225</td>
+              </tr>
+                <tr>
+                  <td>King George</td>
+                  <td><a href= "http://kinggeorge.co.il/portfolio/%D7%A1%D7%A0%D7%99%D7%A3-%D7%97%D7%95%D7%9C%D7%95%D7%9F/">King George Order</a></td>
+                  <td>03-7784040</td>
+              </tr>
+                <tr>
+                  <td>Landwer</td>
+                  <td><a href= "http://www.landwercafe.co.il/">Landwer Order</a></td>
+                  <td>03-7731000</td>
+              </tr>
+              <tr>
+                <td>Mazuli</td>
+                <td><a href= "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29454/mazuli">Mazuli Order</a></td>
+                <td>03-9417991</td>
+            </tr>
+            <tr>
+              <td>Oscar Wilde</td>
+              <td><a href= "http://www.o-w.co.il/">Oscar Wilde Order</a></td>
+              <td>03-7785550</td>
+          </tr>
+          <tr>
+            <td>Tarshis Pizza</td>
+            <td><a href= "https://tarshish.co.il/">Tarshis Pizza Order</a></td>
+            <td>03-3002447</td>
+        </tr>
+        <tr>
+          <td>Masting</td>
+          <td><a href= "https://www.mess-ting.co.il/shop">Masting Order</a></td>
+          <td>055-9111750</td>
+      </tr>
+             
+        </table>
+        <script>
+            function myFunction() {
+              // Declare variables
+              var input, filter, table, tr, td, i, txtValue;
+              input = document.getElementById("myInput");
+              filter = input.value.toUpperCase();
+              table = document.getElementById("myTable");
+              tr = table.getElementsByTagName("tr");
+
+              // Loop through all table rows, and hide those who don't match the search query
+              for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[0];
+                if (td) {
+                  txtValue = +(td.textContent || td.innerText);
+                  if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                    } else {
+                      tr[i].style.display = "none";
+                    }
+                  }
+                }
+              }
+            
+        </script>
+    </body>
+</html>    
