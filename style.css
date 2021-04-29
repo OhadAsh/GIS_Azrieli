@@ -3,7 +3,7 @@ h1{
     color:black;  
 }
 body{
-        background-image:url(back.jpg);
+        background-image:url(UpAzrieli.png);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -40,7 +40,7 @@ body{
 
 .menu ul li{
     height: 40px;
-    border: 4px solid #378086;
+    border: 4px solid #00599d;
     line-height: 30px;
 	background: white;
 
@@ -53,7 +53,7 @@ body{
     display: block;
     text-align: center;
     text-decoration: none;
-    color: #378086;
+    color: #00599d;
 }
 .menu ul li.item a{
     font-family:ariel;
@@ -76,14 +76,14 @@ body{
 
 
 .map a{
-    border: 4px solid #378086 ;
+    border: 4px solid #00599d ;
     background-color: white;
     font-family: ariel;
     font-size: 25px;
     display: block;
     text-align: left;
     text-decoration: none;
-    color: #378086;
+    color: #00599d;
     margin-left: 25px;
 	width: 200px;
 }
@@ -91,7 +91,7 @@ body{
 
   .topnav {
           overflow: hidden;
-          background-color: #378086;
+          background-color: #00599d;
         }
 
         /* Style the links inside the navigation bar */
@@ -113,7 +113,7 @@ body{
 
         /* Style the "active" element to highlight the current page */
         .topnav a.active {
-          background-color: #2196F3;
+          background-color: #e21a24;
           color: white;
         }
 
@@ -145,14 +145,14 @@ body{
   font-size: 1em;
   padding: 10px;
   color: #fff;
-  border: 2px solid #06D85F;
+  border: 2px solid #f8c11a;
   border-radius: 20px/50px;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease-out;
 }
 .button:hover {
-  background: #06D85F;
+  background: #f8c11a;
 }
 
 .overlay {
@@ -197,7 +197,7 @@ body{
   color: #333;
 }
 .popup .close:hover {
-  color: #06D85F;
+  color: #f8c11a;
 }
 .popup .content {
   max-height: 30%;
