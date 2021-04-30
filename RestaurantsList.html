@@ -10,25 +10,14 @@
                     background-attachment: fixed;
                     background-size: cover;
                     
-                    }
-          #myInput {
-                      background-image: url('/css/searchicon.png'); /* Add a search icon to input */
-                      background-position: 10px 12px; /* Position the search icon */
-                      background-repeat: no-repeat; /* Do not repeat the icon image */
-                      width: 50%; /* Full-width */
-                      font-size: 16px; /* Increase font-size */
-                      padding: 12px 20px 12px 40px; /* Add some padding */
-                      border: 1px solid #ddd; /* Add a grey border */
-                      margin-bottom: 12px; /* Add some space below the input */
-                      margin-left: 220px;
-                    }
+              }
 
         #myTable {
           border-collapse: collapse; /* Collapse borders */
-          width: 50%; /* Full-width */
-          border: 1px solid #ddd; /* Add a grey border */
+          width: 25%; /* Full-width */
+          border: 5px solid #00599d; /* Add a blue border */
           font-size: 15px; /* Increase font-size */
-          margin-left: 250px;
+          margin-left: 75px;
           background-color: white;
         }
 
@@ -75,16 +64,6 @@
           color: white;
         }
 
-        /* Style the search box inside the navigation bar */
-        .topnav input[type=text] {
-          float: right;
-          padding: 6px;
-          border: none;
-          margin-top: 8px;
-          margin-right: 16px;
-          font-size: 17px;
-        }
-
         /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
         @media screen and (max-width: 600px) {
           .topnav a, .topnav input[type=text] {
@@ -106,10 +85,11 @@
                     <a class="active" href="./index.html#home">Home</a>
                     
                   </div>  
-        
         <br>
-        
-        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search...">
+
+        <div style="position: absolute; top: 25%; left: 700px;">
+          <a> <img src="commercial_re.png" width="732" height="364"></a>
+      </div>
 
         <table id="myTable">
               <tr class="header">
@@ -182,31 +162,17 @@
           <td><a href= "https://www.mess-ting.co.il/shop">Masting Order</a></td>
           <td>055-9111750</td>
       </tr>
+      <tr>
+        <td>Bruni</td>
+        <td><a>Night Bar</a></td>
+        <td>052-6274409</td>
+    </tr>
+    <tr>
+      <td>Bahadunas</td>
+      <td><a href= "https://wolt.com/en/isr/rishon-lezion/restaurant/hummus-bahadunas-holon?utm_source=googlemapreserved&utm_campaign=hummus-bahadunas-holon">Bahadunas Order</a></td>
+      <td>077-4142443</td>
+  </tr>
              
         </table>
-        <script>
-            function myFunction() {
-              // Declare variables
-              var input, filter, table, tr, td, i, txtValue;
-              input = document.getElementById("myInput");
-              filter = input.value.toUpperCase();
-              table = document.getElementById("myTable");
-              tr = table.getElementsByTagName("tr");
-
-              // Loop through all table rows, and hide those who don't match the search query
-              for (i = 0; i < tr.length; i++) {
-                td = tr[i].getElementsByTagName("td")[0];
-                if (td) {
-                  txtValue = +(td.textContent || td.innerText);
-                  if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                    tr[i].style.display = "";
-                    } else {
-                      tr[i].style.display = "none";
-                    }
-                  }
-                }
-              }
-            
-        </script>
     </body>
 </html>    
