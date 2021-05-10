@@ -11,22 +11,32 @@ body{
     }
 
 
+.CMap{
+      margin-bottom: 100px;
+      margin-left: 300px;
+      
+      border: 4px solid #00599d ;
+      padding: 5px;
+      background-color: white;
+      display: block;
+      width: 912px;
+      height: 480px;
+  }
+
 .wa{
-    width: 2000px;
+    width: 1500px;
     height: 100px;
 }
 
 .menu{
     position: relative;
-    margin-top: 240px;
-    margin-bottom: 100px;
-    margin-right: 200px;
-    margin-left: 1px;
+    margin-bottom: 5px;
+    margin-left: 50px;
 }
 
 .menu ul{
     list-style: none;
-    width: 350px;
+    width: 300px;
     height: 20px;
     float: left;
 
@@ -34,12 +44,12 @@ body{
 }
 
 .menu ul li.top{
-    width: 300px;
+    width: 250px;
 
 }
 
 .menu ul li{
-    height: 40px;
+    height: 30px;
     border: 4px solid #00599d;
     line-height: 30px;
 	background: white;
@@ -75,19 +85,35 @@ body{
 }
 
 
-.map a{
-    border: 4px solid #00599d ;
-    background-color: white;
-    font-family: ariel;
-    font-size: 25px;
-    display: block;
-    text-align: left;
-    text-decoration: none;
-    color: #00599d;
-    margin-left: 25px;
-	width: 200px;
+.FullMapB{
+  margin-bottom: 100px;
+  margin-left: 300px;
+  
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+.FullMapB{
+  border-radius: 8px;
 }
 
+.FullMapB {
+  background-color: #ddd;
+  color: black;
+  border: 4px solid #00599d;
+}
+
+.FullMapB {
+  transition-duration: 0.4s;
+}
+
+.FullMapB:hover {
+  background-color: #84c2f1;
+  color: white;
+}
 
   .topnav {
           overflow: hidden;

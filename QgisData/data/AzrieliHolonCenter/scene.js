@@ -36,7 +36,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 12011595,
+            "c": 1017367,
             "o": 0.75
           },
           {
@@ -126,7 +126,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 15167816,
+            "c": 2341849,
             "o": 0.75
           },
           {
@@ -183,9 +183,9 @@ app.loadJSONObject({
                   "edge": 1
                 },
                 "prop": [
-                  "OPTIMAL+",
+                  "Optimal+",
                   "2",
-                  "We design and develop Enterprise Solutions like ERP, HRM and CRM systems in addition to custom applications for enterprises of different industry domains."
+                  "Optimal+ is the only big data analytics software company providing an end-to-end solution that measurably improves quality, yield, and productivity for semiconductor and electronics manufacturing."
                 ]
               }
             ],
@@ -207,7 +207,6 @@ app.loadJSONObject({
           "Company N.1",
           "Floor",
           "Desc",
-          "field_5",
           "Company N.2",
           "Floor C.2",
           "Desc C.2"
@@ -217,7 +216,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 9993655,
+            "c": 2341849,
             "o": 0.75
           },
           {
@@ -276,11 +275,10 @@ app.loadJSONObject({
                 "prop": [
                   "DealHub",
                   "3",
-                  "The most complete and connected revenue workflow for your organization.",
-                  "NULL",
-                  "CHANGE HEALTHCARE",
+                  "DealHub centralizes buyer communications from opportunity to renewal, and connects everything you need to close the deal",
+                  "Change Healthcare",
                   "3",
-                  "Whether you need to improve operational efficiency, optimize financial performance, or enhance the consumer experience, we offer the industry insight and innovative technology to help you meet your objectives."
+                  "Change Healthcare is a provider of revenue and payment cycle management and clinical information exchange solutions, connecting payers, providers, and patients in the U.S. healthcare system. The name also refers to a company founded in 2007 which subsequently became part of the current conglomerate."
                 ]
               }
             ],
@@ -308,7 +306,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 12504912,
+            "c": 15411409,
             "o": 0.75
           },
           {
@@ -395,7 +393,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 8762991,
+            "c": 15411409,
             "o": 0.75
           },
           {
@@ -482,7 +480,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 10776920,
+            "c": 2341849,
             "o": 0.75
           },
           {
@@ -569,7 +567,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 14005308,
+            "c": 2341849,
             "o": 0.75
           },
           {
@@ -659,7 +657,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 7510895,
+            "c": 2341849,
             "o": 0.75
           },
           {
@@ -749,7 +747,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 15967922,
+            "c": 7027730,
             "o": 0.75
           },
           {
@@ -836,7 +834,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 9263769,
+            "c": 2341849,
             "o": 0.75
           },
           {
@@ -923,7 +921,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 15233421,
+            "c": 2341849,
             "o": 0.75
           },
           {
@@ -1010,7 +1008,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 16752151,
+            "c": 2341849,
             "o": 0.75
           },
           {
@@ -1100,7 +1098,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 14005308,
+            "c": 2341849,
             "o": 0.75
           },
           {
@@ -1190,7 +1188,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 7510895,
+            "c": 7027730,
             "o": 0.75
           },
           {
@@ -1280,7 +1278,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 15967922,
+            "c": 6632363,
             "o": 0.75
           },
           {
@@ -1370,7 +1368,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 9263769,
+            "c": 2341849,
             "o": 0.75
           },
           {
@@ -1457,7 +1455,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 14768521,
+            "c": 15010342,
             "o": 0.75
           },
           {
@@ -1544,7 +1542,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 15054390,
+            "c": 2341849,
             "o": 0.75
           },
           {
@@ -1631,7 +1629,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 12860473,
+            "c": 11777721,
             "o": 0.75
           },
           {
@@ -1721,7 +1719,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 12497559,
+            "c": 6632363,
             "o": 0.75
           },
           {
@@ -1814,7 +1812,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 9523757,
+            "c": 15010342,
             "o": 0.75
           },
           {
@@ -1907,7 +1905,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 8227727,
+            "c": 1017367,
             "o": 0.75
           },
           {
@@ -1997,7 +1995,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 8762991,
+            "c": 1017367,
             "o": 0.75
           },
           {
@@ -2084,7 +2082,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 10776920,
+            "c": 1017367,
             "o": 0.75
           },
           {
@@ -2171,7 +2169,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 9523757,
+            "c": 15010342,
             "o": 0.75
           },
           {
@@ -2258,7 +2256,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 8227727,
+            "c": 11777721,
             "o": 0.75
           },
           {
@@ -2345,7 +2343,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 8762991,
+            "c": 1017367,
             "o": 0.75
           },
           {
@@ -2432,7 +2430,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 10776920,
+            "c": 1017367,
             "o": 0.75
           },
           {
@@ -2519,7 +2517,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 12011595,
+            "c": 2341849,
             "o": 0.75
           },
           {
@@ -2606,7 +2604,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 15167816,
+            "c": 6632363,
             "o": 0.75
           },
           {
@@ -2693,7 +2691,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 9993655,
+            "c": 7027730,
             "o": 0.75
           },
           {
@@ -2780,7 +2778,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 12504912,
+            "c": 14735146,
             "o": 0.75
           },
           {
@@ -2867,7 +2865,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 14768521,
+            "c": 7027730,
             "o": 0.75
           },
           {
@@ -2954,7 +2952,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 15054390,
+            "c": 1017367,
             "o": 0.75
           },
           {
@@ -3041,7 +3039,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 12860473,
+            "c": 2341849,
             "o": 0.75
           },
           {
@@ -3128,7 +3126,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 12497559,
+            "c": 2341849,
             "o": 0.75
           },
           {
@@ -3215,7 +3213,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 12504912,
+            "c": 7027730,
             "o": 0.75
           },
           {
@@ -3302,7 +3300,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 14768521,
+            "c": 14735146,
             "o": 0.75
           },
           {
@@ -3389,7 +3387,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 15054390,
+            "c": 15411409,
             "o": 0.75
           },
           {
@@ -3448,7 +3446,7 @@ app.loadJSONObject({
                 "prop": [
                   "CTV",
                   "3",
-                  "Billboard company"
+                  "CTV is a billboard company been a leader in the field of digital media and signage in Israel for the past decade"
                 ]
               }
             ],
@@ -3476,7 +3474,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 14005308,
+            "c": 2341849,
             "o": 0.75
           },
           {
@@ -3563,7 +3561,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 7510895,
+            "c": 14735146,
             "o": 0.75
           },
           {
@@ -3650,7 +3648,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 15967922,
+            "c": 7027730,
             "o": 0.75
           },
           {
@@ -3737,7 +3735,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 9263769,
+            "c": 15411409,
             "o": 0.75
           },
           {
@@ -3824,7 +3822,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 15233421,
+            "c": 1017367,
             "o": 0.75
           },
           {
@@ -3911,7 +3909,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 16752151,
+            "c": 2341849,
             "o": 0.75
           },
           {
@@ -3998,7 +3996,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 12011595,
+            "c": 2341849,
             "o": 0.75
           },
           {
@@ -4085,7 +4083,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 15167816,
+            "c": 2341849,
             "o": 0.75
           },
           {
@@ -4172,7 +4170,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 9993655,
+            "c": 7027730,
             "o": 0.75
           },
           {
