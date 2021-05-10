@@ -29,3 +29,34 @@ border-bottom: 1px solid #ddd;
 /* Add a grey background color to the table header and on hover */
 background-color: #f1f1f1;
 }
+
+.FullMapBR{
+    margin-bottom: 100px;
+    margin-left: 700px;
+    
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+  }
+  .FullMapBR{
+    border-radius: 8px;
+  }
+  
+  .FullMapBR {
+    background-color: #ddd;
+    color: black;
+    border: 4px solid #00599d;
+  }
+  
+  .FullMapBR {
+    transition-duration: 0.4s;
+  }
+  
+  .FullMapBR:hover {
+    background-color: #84c2f1;
+    color: white;
+  }
+  
