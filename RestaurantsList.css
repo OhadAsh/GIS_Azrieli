@@ -1,5 +1,5 @@
 body{
-          background-image:url(./UpAzrieli.png);
+
           background-repeat: no-repeat;
           background-attachment: fixed;
           background-size: cover;
@@ -11,7 +11,7 @@ border-collapse: collapse; /* Collapse borders */
 width: 25%; /* Full-width */
 border: 5px solid #00599d; /* Add a blue border */
 font-size: 15px; /* Increase font-size */
-margin-left: 13%;
+margin-left: 15%;
 background-color: white;
 }
 
