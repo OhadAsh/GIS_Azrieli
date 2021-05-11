@@ -11,7 +11,7 @@ border-collapse: collapse; /* Collapse borders */
 width: 25%; /* Full-width */
 border: 5px solid #00599d; /* Add a blue border */
 font-size: 15px; /* Increase font-size */
-margin-left: 75px;
+margin-left: 13%;
 background-color: white;
 }
 
@@ -31,15 +31,15 @@ background-color: #f1f1f1;
 }
 
 .FullMapBR{
-    margin-bottom: 100px;
-    margin-left: 700px;
+    margin-bottom: 0px;
+    margin-left: 1%;
     
     border: none;
-    padding: 10px 20px;
+    padding: 10px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: 18px;
   }
   .FullMapBR{
     border-radius: 8px;
@@ -60,3 +60,15 @@ background-color: #f1f1f1;
     color: white;
   }
   
+   /* When the screen is less than 1450 pixels wide and 850 pixels high, hide Map and picture, Also move table to the center of the page */
+  @media screen and (max-width: 1450px) {
+    .ScreenS {display: none;}
+  }
+  @media screen and (max-height: 850px) {
+    .ScreenS {display: none;}
+  }
+
+  @media screen and (max-width: 1450px) {
+    #myTable {margin-left: 50%;}
+  }
+
