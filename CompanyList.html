@@ -4,17 +4,46 @@
         <title>Company List</title>
         <link href="index.css" rel="stylesheet" type="text/css" />
         <link href="CompanyList.css" rel="stylesheet" type="text/css" /> 
+
+        <div class="topnav">
+          <a class="active" href="./index.html#home">Home</a>
+          <a href="./aboutAzrieli.html">About Azrieli Group</a>
+          <a href="./Location.html">Location</a>
+          <a href="./Gallery.html">Gallery</a>
+
+      </div> 
+      <br><br><br><br>
     </head>
 
     <body>
-         <div class="topnav">
-                    <a class="active" href="./index.html#home">Home</a>
-                    <a href="./aboutAzrieli.html">About Azrieli Group</a>
-                    <a href="./Location.html">Location</a>
-                    <a href="./Gallery.html">Gallery</a>
-                  </div>  
-        <br>
-        
+      <div class="sidenav">
+        <div style="position: absolute; top: -0.6%; left: 5px;">
+            <a href= "http://www.azrieligroup.com/"> <img src="logo.jpg" width="140" height="47"></a>
+        </div>
+        <button class="dropdown-btn">Azrieli Buildings
+            <i class="far fa-angle-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <a href="#">Building A</a>
+            <a href="#">Building B</a>
+            <a href="#">Building C</a>
+            <a href="#">Building D</a>
+          </div>
+          <button class="dropdown-btn">Park Plans
+            <i class="far fa-angle-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <a href="http://azrieligroup.com/Content/editor/PL-100-shivuk-200.pdf">All Buildings</a>
+            <a href="http://azrieligroup.com/Content/editor/PL-100-shivuk-A2-A(1).pdf">Building A</a>
+            <a href="http://azrieligroup.com/Content/editor/PL-100-shivuk-A3-B(1).pdf">Building B</a>
+            <a href="http://azrieligroup.com/Content/editor/PL-100-shivuk-A3-C(1).pdf">Building C</a>
+            <a href="http://azrieligroup.com/Content/editor/PL-100-shivuk-A2-D(1).pdf">Building D</a>
+            <a href="http://azrieligroup.com/Content/editor/PL-020-shivuk-200%20AB(1).pdf">Harokmim&Halahav</a>
+          </div>
+            <a href="./RestaurantsList.html">Restaurants List</a>
+            <a href="./CompanyList.html">Company List</a>
+            <a href="#popup1" disabled>Color Map</a>
+        </div>
         <input type="text" id="CompanyInput" oninput="SearchCompany()" placeholder="Search Company">
         <input type="text" id="BuildingInput" oninput="SearchBuilding()" placeholder="Building Filter: A-D">
 
@@ -108,5 +137,31 @@
               }
             }
         </script>
+
+        
+<div id="popup1" class="overlay">
+  <div class="popup">
+      <a class="close" href="#">&times;</a>
+      <a> <img src="Legend.png" width="320" height="600"></a>
+  </div>
+</div>
+
+<script>
+  /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+  var dropdown = document.getElementsByClassName("dropdown-btn");
+  var i;
+  
+  for (i = 0; i < dropdown.length; i++) {
+    dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+    dropdownContent.style.display = "none";
+    } else {
+    dropdownContent.style.display = "block";
+    }
+    });
+  }
+  </script>
     </body>
 </html>    

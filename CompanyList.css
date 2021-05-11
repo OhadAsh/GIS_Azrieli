@@ -1,6 +1,5 @@
 
   body{
-            background-image:url(./UpAzrieli.png);
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
@@ -10,23 +9,23 @@
               background-image: url('/css/searchicon.png'); /* Add a search icon to input */
               background-position: 10px 12px; /* Position the search icon */
               background-repeat: no-repeat; /* Do not repeat the icon image */
-              width: 20%; /* Full-width */
+              width: 15%; /* Full-width */
               font-size: 16px; /* Increase font-size */
               padding: 12px 20px 12px 40px; /* Add some padding */
               border: 1px solid #ddd; /* Add a grey border */
               margin-bottom: 12px; /* Add some space below the input */
-              margin-left: 220px;
+              margin-left: 16%;
             }
     #BuildingInput {
               background-image: url('/css/searchicon.png'); /* Add a search icon to input */
               background-position: 10px 12px; /* Position the search icon */
               background-repeat: no-repeat; /* Do not repeat the icon image */
-              width: 20%; /* Full-width */
+              width: 15%; /* Full-width */
               font-size: 16px; /* Increase font-size */
               padding: 12px 20px 12px 40px; /* Add some padding */
               border: 1px solid #ddd; /* Add a grey border */
               margin-bottom: 12px; /* Add some space below the input */
-              margin-left: 20px;
+              margin-left: 1%;
             }
 
 
