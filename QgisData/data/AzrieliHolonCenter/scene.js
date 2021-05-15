@@ -717,7 +717,7 @@ app.loadJSONObject({
                   "Osys Technologies",
                   "8",
                   "Develops technological solutions at the highest level.",
-                  "NETA",
+                  "NTA",
                   "8",
                   "A company for the construction of roads in the country which was directed in favor of the construction of the light rail which is developing to be the most glorious failure. Nata because noises is us"
                 ]
@@ -804,7 +804,7 @@ app.loadJSONObject({
                   "edge": 1
                 },
                 "prop": [
-                  "NETA",
+                  "NTA",
                   "9",
                   "A company for the construction of roads in the country which was directed in favor of the construction of the light rail which is developing into the most successful failure. Nata because noises is us"
                 ]
@@ -3909,7 +3909,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 2341849,
+            "c": 1017367,
             "o": 0.75
           },
           {
@@ -3966,9 +3966,9 @@ app.loadJSONObject({
                   "edge": 1
                 },
                 "prop": [
-                  "Avaya",
+                  "Helman Aldobi",
                   "9",
-                  "Avaya is a multinational technology company headquartered in Durham, North Carolina, that specializes in cloud communications and workstream collaboration solutions"
+                  "Hellman Aldubi Investment House is leading the pension revolution in Israel, provident and continuing education fund manager, pension funds, advanced investment funds and investment portfolio management"
                 ]
               }
             ],

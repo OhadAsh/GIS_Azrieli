@@ -717,7 +717,7 @@ app.loadJSONObject({
                   "Osys Technologies",
                   "8",
                   "Develops technological solutions at the highest level.",
-                  "NETA",
+                  "NTA",
                   "8",
                   "A company for the construction of roads in the country which was directed in favor of the construction of the light rail which is developing to be the most glorious failure. Nata because noises is us"
                 ]
@@ -804,7 +804,7 @@ app.loadJSONObject({
                   "edge": 1
                 },
                 "prop": [
-                  "NETA",
+                  "NTA",
                   "9",
                   "A company for the construction of roads in the country which was directed in favor of the construction of the light rail which is developing into the most successful failure. Nata because noises is us"
                 ]
