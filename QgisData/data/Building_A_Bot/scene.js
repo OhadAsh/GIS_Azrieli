@@ -207,7 +207,6 @@ app.loadJSONObject({
           "Company N.1",
           "Floor",
           "Desc",
-          "field_5",
           "Company N.2",
           "Floor C.2",
           "Desc C.2"
