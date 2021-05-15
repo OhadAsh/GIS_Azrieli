@@ -729,7 +729,7 @@ app.loadJSONObject({
         "materials": [
           {
             "type": 0,
-            "c": 2341849,
+            "c": 1017367,
             "o": 0.75
           },
           {
@@ -786,9 +786,9 @@ app.loadJSONObject({
                   "edge": 1
                 },
                 "prop": [
-                  "Avaya",
+                  "Helman Aldobi",
                   "9",
-                  "Avaya is a multinational technology company headquartered in Durham, North Carolina, that specializes in cloud communications and workstream collaboration solutions"
+                  "Hellman Aldubi Investment House is leading the pension revolution in Israel, provident and continuing education fund manager, pension funds, advanced investment funds and investment portfolio management"
                 ]
               }
             ],

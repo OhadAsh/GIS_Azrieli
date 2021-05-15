@@ -204,16 +204,6 @@ body{
   overflow: auto;
 }
 
-@media screen and (max-width: 600px){
-  .overlay{
-    width: 50%;
-  }
-  .popup{
-    width: 50%;
-  }
-}
-
-
    /* When the screen is less than 1150 pixels wide and 600 pixels high, hide Map and picture, Also move table to the center of the page */
    @media screen and (max-width: 1150px) {
     .ScreenS {display: none;}

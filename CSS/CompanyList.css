@@ -6,24 +6,18 @@
             
             }
   #CompanyInput {
-              background-image: url('/css/searchicon.png'); /* Add a search icon to input */
-              background-position: 10px 12px; /* Position the search icon */
-              background-repeat: no-repeat; /* Do not repeat the icon image */
               width: 15%; /* Full-width */
               font-size: 16px; /* Increase font-size */
               padding: 12px 20px 12px 40px; /* Add some padding */
-              border: 1px solid #ddd; /* Add a grey border */
+              border: 3px solid #00599d; /* Add a grey border */
               margin-bottom: 12px; /* Add some space below the input */
-              margin-left: 16%;
+              margin-left: 15%;
             }
     #BuildingInput {
-              background-image: url('/css/searchicon.png'); /* Add a search icon to input */
-              background-position: 10px 12px; /* Position the search icon */
-              background-repeat: no-repeat; /* Do not repeat the icon image */
-              width: 15%; /* Full-width */
+              width: 9%; /* Full-width */
               font-size: 16px; /* Increase font-size */
               padding: 12px 20px 12px 40px; /* Add some padding */
-              border: 1px solid #ddd; /* Add a grey border */
+              border: 3px solid #00599d; /* Add a grey border */
               margin-bottom: 12px; /* Add some space below the input */
               margin-left: 1%;
             }
@@ -31,8 +25,8 @@
 
 #myTable {
   border-collapse: collapse; /* Collapse borders */
-  width: 50%; /* Full-width */
-  border: 1px solid #ddd; /* Add a grey border */
+  width: 35%; /* Full-width */
+  border: 5px solid #00599d; /* Add a grey border */
   font-size: 15px; /* Increase font-size */
   margin-left: 250px;
   background-color: white;
