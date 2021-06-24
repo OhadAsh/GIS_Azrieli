@@ -204,15 +204,15 @@ body{
   overflow: auto;
 }
 
-   /* When the screen is less than 1150 pixels wide and 600 pixels high, hide Map and picture, Also move table to the center of the page */
-   @media screen and (max-width: 1150px) {
+   /* When the screen is less than 1300 pixels wide and 600 pixels high, hide Map and picture, Also move table to the center of the page */
+   @media screen and (max-width: 1300px) {
     .ScreenS {display: none;}
   }
   @media screen and (max-height: 600px) {
     .ScreenS {display: none;}
   }
 
-  @media screen and (max-width: 1150px) {
+  @media screen and (max-width: 1300px) {
     #myTable {margin-left: 70%;}
   }
 
