@@ -107,7 +107,7 @@ app.loadSceneFile("./data/Building_C/scene.js", function (scene) {
   app.start();
 }, function (scene) {
   // all relevant files have been loaded
-
+  app.cameraAction.orbit();
 });
 
 document.getElementById("infobtn").onclick = app.showInfo;

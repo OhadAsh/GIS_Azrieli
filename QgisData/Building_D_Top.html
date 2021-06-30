@@ -49,26 +49,14 @@
 
     <!-- page info -->
     <div id="pageinfo">
-      <h1>Current View URL</h1>
-      <div><input id="urlbox" type="text"></div>
-
-      <h1>Usage</h1>
+      <h1>Floors</h1>
       <table id="usage">
-        <tr><td colspan="2" class="star">Mouse</td></tr>
-        <tr><td>Left button + Move</td><td>Orbit</td></tr>
-        <tr><td>Mouse Wheel</td><td>Zoom</td></tr>
-        <tr><td>Right button + Move</td><td>Pan</td></tr>
-
-        <tr><td colspan="2" class="star">Keys</td></tr>
-        <tr><td>Arrow keys</td><td>Move Horizontally</td></tr>
-        <tr><td>Shift + Arrow keys</td><td>Orbit</td></tr>
-        <tr><td>Ctrl + Arrow keys</td><td>Rotate</td></tr>
-        <tr><td>Shift + Ctrl + Up / Down</td><td>Zoom In / Out</td></tr>
-        <tr><td>L</td><td>Toggle Label Visibility</td></tr>
-        <tr><td>R</td><td>Start / Stop Orbit Animation</td></tr>
-        <tr><td>W</td><td>Wireframe Mode</td></tr>
-        <tr><td>Shift + R</td><td>Reset Camera Position</td></tr>
-        <tr><td>Shift + S</td><td>Save Image</td></tr>
+        <tr><td>Floor 12</td><td>Shviro</td></tr>
+        <tr><td>Floor 11</td><td>Hellman Aldubi</td></tr>
+        <tr><td>Floor 10</td><td>AVAYA</td></tr>
+        <tr><td>Floor 9</td><td>AVAYA</td></tr>
+        <tr><td>Floor 8</td><td>Bakshi Ahronov Accountent</td></tr>
+        <tr><td>Floor 7</td><td>Media Force</td></tr>
       </table>
 
       <h1>About</h1>
@@ -81,16 +69,17 @@
   </div>
 </div>
 
+
 <!-- progress bar -->
 <div id="progress"><div id="bar"></div></div>
 
 <!-- header and footer -->
 <div id="header">Building D Top</div>
-<div id="footer"><span id="infobtn"><img src="./Qgis2threejs.png"></span> </div>
+<div id="footer"><span id="infobtn"><img src="./Floors.png"></span> </div>
 
 <script>
 Q3D.Config.allVisible = true;
-Q3D.Config.viewpoint = {lookAt:{x:-81.25210608792119,y:-68.27205298952862,z:2.6096553792531124e-17},pos:{x:30.85379241232127,y:28.395693697200684,z:51.4039641959305}};
+Q3D.Config.viewpoint = {lookAt:{x:-81.25210608792119,y:-68.27205298952862,z:2.6096553792531124e-17},pos:{x:30,y:35,z:58}};
 Q3D.Config.localMode = true;
 Q3D.Config.northArrow.visible = true;
 Q3D.Config.northArrow.color = 0xe50a26;
@@ -107,7 +96,7 @@ app.loadSceneFile("./data/Building_D_Top/scene.js", function (scene) {
   app.start();
 }, function (scene) {
   // all relevant files have been loaded
-
+  app.popup.show("pageinfo");
 });
 
 document.getElementById("infobtn").onclick = app.showInfo;
