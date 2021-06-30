@@ -90,7 +90,7 @@
 
 <script>
 Q3D.Config.allVisible = true;
-Q3D.Config.viewpoint = {lookAt:{x:-86.49966542023778,y:122.0279844024644,z:-1.498341185180414e-15},pos:{x:63.14875295901105,y:-73.38884389895003,z:35.14265458250722}};
+Q3D.Config.viewpoint = {lookAt:{x:-86.49966542023778,y:122.0279844024644,z:-1.498341185180414e-15},pos:{x:63.14875295901105,y:-73.38884389895003,z:60}};
 Q3D.Config.localMode = true;
 Q3D.Config.northArrow.visible = true;
 Q3D.Config.northArrow.color = 0xe50a26;
@@ -107,7 +107,7 @@ app.loadSceneFile("./data/Building_B/scene.js", function (scene) {
   app.start();
 }, function (scene) {
   // all relevant files have been loaded
-
+  app.cameraAction.orbit();
 });
 
 document.getElementById("infobtn").onclick = app.showInfo;
